@@ -33,7 +33,7 @@ CREATE TABLE Logs (
 CREATE TABLE ProductReporting (
     Date DATE NOT NULL,
     ProductName VARCHAR(50) NOT NULL,
-    Orders INT NOT NULL,
+    Orders INT NOT NULL
 ) ENGINE=CSV;
 
 -- Create a table for caching GeoIP data (Columns: ID, IP Range, CountryID)
